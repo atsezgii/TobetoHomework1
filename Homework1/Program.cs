@@ -20,11 +20,8 @@ void firstQuestion()
         case 5:
             Console.WriteLine("Nohut");
             break;
-        case 6:
-            Console.WriteLine("Ispanak");
-            break;
-        case 7:
-            Console.WriteLine("Bisküvi");
+        default:
+            Console.WriteLine("Yanlış Sipariş Numarası Girdiniz.");
             break;
     }
 }
